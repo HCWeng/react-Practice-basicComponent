@@ -34,9 +34,10 @@ function App() {
       </header>
       <ul id="concepts">
         <li className="concept">
-          <img src="TODO: IMAGE" alt="TODO: TITLE" />
-          <h2>TODO: TITLE</h2>
-          <p>TODO: DESCRIPTION</p>
+        {/* dynamic data display */}
+          <img src={concepts[0].image} alt={concepts[0].title} />
+          <h2>{concepts[0].title}</h2>
+          <p>T{concepts[0].description}</p>
         </li>
       </ul>
     </div>
